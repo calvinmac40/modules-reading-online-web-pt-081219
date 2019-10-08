@@ -3,7 +3,10 @@ require_relative './dance_module.rb'
 require_relative './fancy_dance.rb'
 
 class Dancer
-  
+  class Kid
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
+end
   include Dance
   extend MetaDancing
   
