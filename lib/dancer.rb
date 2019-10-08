@@ -11,10 +11,11 @@ class Dancer
   def initialize(name)
     @name = name
   end
-end
+
 
 class Dancer
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
 end
+
 
