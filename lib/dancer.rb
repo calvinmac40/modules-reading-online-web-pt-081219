@@ -11,6 +11,7 @@ class Dancer
   def initialize(name)
     @name = name
   end
+  
 
 
 class Dancer
