@@ -7,8 +7,6 @@ require_relative './fancy_dance.rb'
 class Kid 
 include Dance
 extend MetaData
-include FancyDance::InstanceMethods
-extend FancyDance::ClassMethod
   attr_accessor :name
  
   def initialize(name)
