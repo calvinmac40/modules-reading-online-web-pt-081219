@@ -12,5 +12,3 @@ class Dancer
   end
 end
 
-
-
